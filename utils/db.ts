@@ -54,8 +54,8 @@ export const initialSettings = {
 export type Settings = typeof initialSettings
 
 export const textGenModels: Model[] = [{
-    id: 'gemini-pro',
-    name: 'Gemini Pro',
+    id: 'gemini-1.0-pro',
+    name: 'Gemini 1.0 Pro',
     provider: 'google',
     type: 'chat'
 }, {
