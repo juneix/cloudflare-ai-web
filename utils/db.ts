@@ -59,10 +59,14 @@ export const textGenModels: Model[] = [{
     provider: 'google',
     type: 'chat'
 }, {
-    id: 'gpt-3.5-turbo',
-    name: 'ChatGPT-3.5-turbo',
-    provider: 'openai',
-    endpoint: 'chat/completions',
+    id: 'gemini-1.5-flash-latest',
+    name: 'Gemini 1.5 Flash',
+    provider: 'google',
+    type: 'chat'
+}, {
+    id: 'gemini-1.5-pro-latest',
+    name: 'Gemini 1.5 Pro',
+    provider: 'google',
     type: 'chat'
 }, {
     id: '@cf/qwen/qwen1.5-14b-chat-awq',
